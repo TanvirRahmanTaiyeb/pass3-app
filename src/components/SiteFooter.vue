@@ -4,13 +4,13 @@
       <div class="contact-info">
         <div class="contact-item">
           <a href="mailto:tanvirrahmantaiyeb@gmail.com" class="contact-link">
-            <img src="https://cdn-icons-png.flaticon.com/512/3178/3178158.png" alt="Email Icon" class="contact-icon">
+            <img src="https://png.pngtree.com/png-vector/20190429/ourmid/pngtree-mail-icon-vector-illustration-in-line-style-for-any-purpose-png-image_996816.jpg" alt="Email Icon" class="contact-icon">
             tanvirrahmantaiyeb@gmail.com
           </a>
         </div>
         <div class="contact-item">
           <a href="tel:+61412781376" class="contact-link">
-            <img src="https://png.pngtree.com/png-clipart/20210311/original/pngtree-phone-icon-in-circle-black-png-image_5994540.png" alt="Phone Icon" class="contact-icon">
+            <img src="https://images.rawpixel.com/image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3JtNTMzLW91dGxpbmUtMjJfMS5wbmc.png" alt="Phone Icon" class="contact-icon">
             +61 4 1278 1376
           </a>
         </div>
