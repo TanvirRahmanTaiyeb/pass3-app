@@ -1,0 +1,123 @@
+/* Reset some default styles for better consistency */
+html, body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box; /* Include padding and border in element sizing */
+  }
+  
+  /* Apply a basic font family and background color to the body */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6; /* Improved text readability */
+  }
+  
+  /* Header styles with a gradient background and centered text */
+  header {
+    background: linear-gradient(to bottom, #007BFF, #0056b3);
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Navigation links with hover effect */
+  nav {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #007BFF;
+    margin: 0 10px;
+    font-weight: bold;
+    transition: color 0.3s; /* Smooth color transition on hover */
+  }
+  
+  nav a:hover {
+    color: #004999; /* Change color on hover */
+  }
+  
+  /* Footer styles with a gradient background and centered text */
+  footer {
+    background: linear-gradient(to bottom, #007BFF, #0056b3);
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  /* Responsive design using Flexbox */
+  @media screen and (max-width: 768px) {
+    header {
+      font-size: 24px;
+    }
+  
+    nav {
+      flex-direction: column;
+    }
+  
+    nav a {
+      margin: 10px 0;
+    }
+  }
+  
+  /* Responsive layout using Flexbox */
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  /* Define the styles for the items within the container */
+  .item {
+    flex: 1;
+    margin: 10px;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Media query for adjusting styles on smaller screens */
+  @media screen and (max-width: 768px) {
+    header {
+      font-size: 18px;
+    }
+  
+    nav {
+      margin-top: 15px;
+    }
+  
+    nav a {
+      margin: 5px 0;
+    }
+  
+    .container {
+      flex-direction: column;
+    }
+  
+    .item {
+      width: 100%;
+    }
+  }
+  
+  /* Responsive layout using CSS Grid */
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Example: Create 3 equal-width columns */
+    gap: 20px; /* Spacing between grid items */
+    padding: 20px;
+  }
+  
+  /* Media query for adjusting styles on smaller screens */
+  @media screen and (max-width: 768px) {
+    .grid-container {
+      grid-template-columns: 1fr; /* Display a single column on smaller screens */
+    }
+  }
+  
